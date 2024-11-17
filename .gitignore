@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Environment files
+*.env
+.env.*
+!/server/.env.example
+
+# Build outputs
+dist/
+build/
+dist-ssr/
+.client/dist/
+.client/build/
+.server/dist/
+
+# Ignore coverage reports from testing tools.
+coverage/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE and Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS and System-Specific Files
+.DS_Store
+
+# Misc
+/.pnp
+.pnp.js
+*.local
+package.json.bak
+*.tmp
+*.bak
+
+# SSL
+ssl/
+!ssl/README.md
